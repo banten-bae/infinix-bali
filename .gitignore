@@ -1,79 +1,35 @@
-# Byte-compiled / optimized
+# Environment Variables (JANGAN UPLOAD KE GITHUB)
+.env
+
+# Python Cache & Build Files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-
-# Distribution
+.Python
 build/
+develop-eggs/
 dist/
-*.egg-info/
-*.egg
-*.whl
+downloads/
+eggs/
 .eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual env - JANGAN di-push
-.env
-.venv
+# Virtual Environment
 venv/
 env/
 ENV/
 
-# Flask
-instance/
-.webassets-cache
-
-# Database lokal - JANGAN di-push, pakai Supabase di production
-bot_database.json
-*.db
-*.sqlite
-*.sqlite3
-*.db-journal
-
-# Logs
-*.log
-logs/
-pip-log.txt
-
-# Testing & Coverage
-.coverage
-.pytest_cache/
-htmlcov/
-.tox/
-.nox/
-
-# IDE
+# IDE & OS Files
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.spyderproject
-.ropeproject
-
-# OS
 .DS_Store
 Thumbs.db
-Desktop.ini
-
-# Jupyter
-.ipynb_checkpoints
-
-# mypy / pyre / pytype
-.mypy_cache/
-.pyre/
-.pytype/
-dmypy.json
-
-# Temporary
-/tmp/
-temp/
-*.tmp
-*.bak
-*.backup
-*.old
-
-# KEEP THESE FOR RAILWAY - JANGAN DI-IGNORE
-# railway.json
-# Procfile
-# railway.toml
