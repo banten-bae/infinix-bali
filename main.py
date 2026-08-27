@@ -2099,7 +2099,7 @@ async def start_fixed(message: Message, state: FSMContext):
     except:
         pass
     await message.answer(
-        "🤖 <b>SAHABAT JHT 🤖</b>\n\n"
+        "🎉 <b>DUNIA JHT BOT </b>\n\n"
         f"👋 Selamat datang, <b>{message.from_user.full_name}</b>!\n"
         "Gimana kabarnya nih, saya berharap kabar baik-baik saja yah, "
         "tetap semangat dan jangan lupa bersyukur.\n"
